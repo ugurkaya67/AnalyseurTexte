@@ -1,0 +1,7 @@
+Bonjour à tous et bienvenue dans cet exemple de fichier texte.
+Ce fichier contient plusieurs lignes, des mots répétés, et aussi quelques chiffres : 123, 456.
+Voici une phrase avec des ponctuations ! Oui, c'est bien une phrase...
+Est-ce que cela fonctionne correctement ? Testons encore.
+
+Bonjour encore une fois. Ce texte est simplement un exemple pour l'analyse.
+Bonjour !

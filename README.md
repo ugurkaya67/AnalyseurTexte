@@ -13,7 +13,6 @@
 
 ### Prérequis
 
-- .NET SDK installé sur votre machine.
 - Un fichier texte à analyser.
 
 ### Étapes
@@ -22,3 +21,31 @@
 
    ```bash
    git clone https://github.com/ugurkaya67/AnalyseurTexte.git
+
+2. Compilez le projet avec mcs :
+
+Depuis le répertoire du projet, utilisez la commande suivante pour compiler tous les fichiers source :
+
+bash
+Copier le code
+mcs Program.cs TextAnalyzer.cs Helpers/ConsoleHelper.cs
+Cette commande génère un fichier exécutable nommé Program.exe.
+
+3. Exécutez l'application avec mono :
+
+Utilisez Mono pour exécuter l'application générée :
+
+bash
+Copier le code
+mono Program.exe
+
+4. Fournissez le chemin du fichier texte :
+
+L'application vous demandera de saisir le chemin du fichier texte à analyser. 
+Par exemple :
+Veuillez entrer le chemin du fichier texte à analyser : /mnt/c/Users/PC/Documents/Projets/AnalyseurTexte/test.txt
+
+5. Visualisez les résultats :
+
+L'application affichera les résultats dans la console, comme suit :
+![Preuve de test](test.png)
